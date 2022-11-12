@@ -5,3 +5,8 @@ System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
 		driver.get("https://www.naukri.com/");
 		JavascriptExecutor jse=(JavascriptExecutor) driver;
 		jse.executeScript("window.alert('Enter your name')");
+		
+		
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		
